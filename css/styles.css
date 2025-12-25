@@ -52,6 +52,10 @@ body {
     padding: 120px 0;
 }
 
+.social-icon {
+    fill: #F4F4FD;
+}
+
 .header-list {
     display: flex;
     align-items: center;
@@ -147,7 +151,7 @@ body {
     max-width: 1440px;
     margin: auto;
     padding: 188px 0;
-    background-image: linear-gradient( to bottom, rgba(46, 47, 66, 0.7)), url(../images/hero-background.jpg);
+    background-image: linear-gradient( rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero-background.jpg');
 }
 
 .hero-container {
@@ -345,10 +349,7 @@ body {
     height: 100%;
     background-color: #4d5ae5;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding-top: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 164px;
+    padding: 40px 32px;
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
