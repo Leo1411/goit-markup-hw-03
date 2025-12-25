@@ -53,7 +53,7 @@ body {
 }
 
 .social-icon {
-    color: #F4F4FD;
+    fill: #f4f4fd;
 }
 
 .header-list {
@@ -222,7 +222,7 @@ body {
     margin-bottom: 8px;
     background-color: #F4F4FD;
     border-radius: 4px;
-    border: 1px solid#8E8F99;
+    border: 1px solid #8e8f99;
 }
 
 .benefits-item h3 {
